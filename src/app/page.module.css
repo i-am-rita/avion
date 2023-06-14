@@ -2,16 +2,15 @@
   position: relative;
 }
 
-.imagecard {
+/* .imagecard {
   position: absolute;
   top: 135px;
   right: 6%;
   border: none;
   background-color: #fff;
-
   padding: 45px 75px 45px 55px;
   width: 623px;
-}
+} */
 
 /* align-items: flex-start;
   text-align: left; */
@@ -22,7 +21,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 140%;
-  color: #22202e;
+  /* color: #22202e; */
   letter-spacing: 1.5px;
 }
 
@@ -32,7 +31,7 @@
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-  color: #726e8d;
+  /* color: #726e8d; */
   margin: 20px 0px 160px 0px;
 }
 
@@ -85,23 +84,23 @@
   color: #2a254b;
 }
 
-
 /* Collection section */
-.collection{
+.collection {
   margin-top: 120px;
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
-.collection > div{
+.collection > div {
   margin-bottom: 5px;
 }
-.collection > div > p{
+.collection > div > p {
   margin-top: 15px;
   font-weight: 300;
-
 }
+
+
 
 /* .main {
   display: flex;

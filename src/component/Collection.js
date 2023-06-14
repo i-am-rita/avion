@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "../app/page.module.css";
 import Button from "@/constants/Button";
+import { Bigcard } from "./Bigcard";
 
 export const Collection = () => {
   return (
@@ -11,7 +12,7 @@ export const Collection = () => {
           <Image
             src="/chair.svg"
             alt="collection item"
-            width={305}
+            width={301}
             height={375}
             // style={{width: "1000px", height: "100px"}}
           />
@@ -22,7 +23,7 @@ export const Collection = () => {
           <Image
             src="/vase.svg"
             alt="collection item"
-            width={305}
+            width={301}
             height={375}
             // style={{width: "1000px", height: "100px"}}
           />
@@ -33,7 +34,7 @@ export const Collection = () => {
           <Image
             src="/silky.svg"
             alt="collection item"
-            width={305}
+            width={301}
             height={375}
             // style={{width: "1000px", height: "100px"}}
           />
@@ -44,7 +45,7 @@ export const Collection = () => {
           <Image
             src="/lucylamp.svg"
             alt="collection item"
-            width={305}
+            width={301}
             height={375}
             // style={{width: "1000px", height: "100px"}}
           />
@@ -67,13 +68,38 @@ export const Collection = () => {
         />
       </div>
 
-      <div style={{ border: "1px solid red", display: "flex" }}>
+      {/* Big cards */}
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          gap: "20px",
+          marginTop: "95px",
+          //   border: "1px solid red",
+        }}
+      >
+        <Bigcard
+          backgroundColor="#2A254B"
+          color="#FFFFFF"
+          pcolor="#fff"
+          padding="70px 75px 57px 55px"
+          margin="18px 0px 183px 0px"
+          marginTop="3px"
+          marginBottom="2px"
+          h6title="It started with a small idea"
+          ptitle="A global brand with local beginings, our story began in a small studio in South London in early 2014"
+        />
+
         <div>
-          <p>kjdhsfgshdbn</p>
+          <Image
+            src="/interior.svg"
+            alt="interior image"
+            width={0}
+            height={0}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
-        <div>
-          <p>kjdhsfgshdbn</p>
-        </div>
+        {/* <Bigcard backgroundColor="#000" padding="60px 75px 55px 55px" /> */}
       </div>
     </div>
   );

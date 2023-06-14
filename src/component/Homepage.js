@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../app/page.module.css";
 
 import Button from "@/constants/Button";
+import { Bigcard } from "./Bigcard";
 export default function Homepage() {
   return (
     <>
@@ -14,8 +15,21 @@ export default function Homepage() {
           height={100}
           style={{ width: "100%", height: "150%" }}
         />
+        <Bigcard
+          position="absolute"
+          top="135px"
+          right="6%"
+          backgroundColor="#fff"
+          padding="45px 75px 45px 55px"
+          margin="20px 0px 160px 0px"
+          h6title="Luxury homeware for people who love timeless design quality"
+          ptitle="Shop the new Spring 2022 collection today"
+          name="View collection"
+          color="#000000"
+          pcolor="#726e8d"
+        />
 
-        <div className={styles.imagecard}>
+        {/* <div className={styles.imagecard}>
           <div>
             <h6>
               Luxury homeware for people <br /> who love timeless design quality
@@ -27,7 +41,7 @@ export default function Homepage() {
             backgroundColor="#F9F9F9"
             color="#2A254B"
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
