@@ -1,4 +1,109 @@
-.main {
+.imgContainer {
+  position: relative;
+}
+
+.imagecard {
+  position: absolute;
+  top: 135px;
+  right: 6%;
+  border: none;
+  background-color: #fff;
+
+  padding: 45px 75px 45px 55px;
+  width: 623px;
+}
+
+/* align-items: flex-start;
+  text-align: left; */
+
+.imagecard h6 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  color: #22202e;
+  letter-spacing: 1.5px;
+}
+
+.imagecard p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #726e8d;
+  margin: 20px 0px 160px 0px;
+}
+
+/* About Us */
+.aboutsection {
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 40px 0px;
+}
+
+.about p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  color: #2a254b;
+}
+
+.aboutdetails {
+  display: flex;
+  gap: 20px;
+}
+
+.aboutitems {
+  padding: 35px 40px;
+  /* gap: 50px; */
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.aboutitems h6 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 200;
+  color: #2a254b;
+}
+.aboutitems p {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #2a254b;
+}
+
+
+/* Collection section */
+.collection{
+  margin-top: 120px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.collection > div{
+  margin-bottom: 5px;
+}
+.collection > div > p{
+  margin-top: 15px;
+  font-weight: 300;
+
+}
+
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -106,9 +211,9 @@
 
 .logo {
   position: relative;
-}
+} */
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -123,10 +228,10 @@
   .card:hover span {
     transform: none;
   }
-}
+} */
 
 /* Mobile */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -200,10 +305,10 @@
     );
     z-index: 1;
   }
-}
+} */
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/* @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -226,4 +331,4 @@
   to {
     transform: rotate(0deg);
   }
-}
+} */
