@@ -82,10 +82,10 @@ export const Collection = () => {
           backgroundColor="#2A254B"
           color="#FFFFFF"
           pcolor="#fff"
-          padding="70px 75px 57px 55px"
+          padding="70px 75px 63px 55px"
           margin="18px 0px 183px 0px"
-          marginTop="3px"
-          marginBottom="2px"
+          //   marginTop="3px"
+          //   marginBottom="2px"
           h6title="It started with a small idea"
           ptitle="A global brand with local beginings, our story began in a small studio in South London in early 2014"
         />
@@ -94,12 +94,10 @@ export const Collection = () => {
           <Image
             src="/interior.svg"
             alt="interior image"
-            width={0}
-            height={0}
-            style={{ width: "100%", height: "100%" }}
+            width={630}
+            height={478}
           />
         </div>
-        {/* <Bigcard backgroundColor="#000" padding="60px 75px 55px 55px" /> */}
       </div>
     </div>
   );

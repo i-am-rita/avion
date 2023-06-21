@@ -15,7 +15,7 @@ export const Bigcard = ({
   padding,
   margin,
   marginTop,
-  marginBottom
+  marginBottom,
 }) => {
   return (
     <div>
@@ -30,8 +30,9 @@ export const Bigcard = ({
           padding,
           marginTop,
           marginBottom,
-        //   border: "1px solid red",
+          //   border: "1px solid red",
           width: "623px",
+          marginBottom: "100px",
         }}
       >
         <div className={styles.imagecard}>

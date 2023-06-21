@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Navbar from "@/component/Navbar";
 import { Collection } from "@/component/Collection";
 import { About } from "@/component/About";
+import { Footer } from "@/component/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About/>
       <Collection/>
       </div>
+      <Footer/>
  
     </main>
   );
