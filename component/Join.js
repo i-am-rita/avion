@@ -1,13 +1,9 @@
-"use client";
+'use client'
 
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
-import { Email } from "./Email";
-
-export const Footer = () => {
+export const Join = () => {
   return (
     <>
       <div style={{ position: "relative" }}>
@@ -21,7 +17,7 @@ export const Footer = () => {
             //   border: "1px solid red",
           }}
         >
-          <Join style={{ textAlign: "center" }}>
+          <JoinContent style={{ textAlign: "center" }}>
             <h4>Join the club and get the benefits</h4>
             <p>
               Sign up for our newsletter and receive exclusive offers on <br />{" "}
@@ -56,53 +52,18 @@ export const Footer = () => {
                 <p>Large discounts</p>
               </div>
             </div>
-            <Email backgroundColor="#f9f9f9" width="53%" />
-            {/* <div className="email">
+            <div className="email">
               <input type="text" placeholder="your@email.com" />
               <button className="signup-button">Sign up</button>
-            </div> */}
-          </Join>
+            </div>
+          </JoinContent>
         </div>
       </div>
-
-      <FooterContainer>
-        <div className="footer">
-          <div>
-            <h5>Menu</h5>
-            <p>New arrivals</p>
-            <p>Best sellers</p>
-            <p>Recently viewed</p>
-            <p>Popular this week</p>
-            <p>All products</p>
-          </div>
-          <div>
-            <h5>Categories</h5>
-            <p>Crockery</p>
-            <p>Furniture</p>
-            <p>Homeware</p>
-            <p>Plant pots</p>
-            <p>Chairs</p>
-            <p>Crockery</p>
-          </div>
-          <div>
-            <h5>Our company</h5>
-            <p>About us</p>
-            <p>Vacancies</p>
-            <p>Contact us</p>
-            <p>Privacy</p>
-            <p>Returns policy</p>
-          </div>
-          <div style={{ border: "2px solid black", width: "100%" }}>
-            <h5>Join our mailing list</h5>
-            <Email backgroundColor="grey" width="627px" />
-          </div>
-        </div>
-      </FooterContainer>
     </>
   );
 };
 
-const Join = styled.div`
+const JoinContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,8 +113,7 @@ const Join = styled.div`
     }
   }
 
-  ${"" /* .email {
-  
+  .email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,23 +139,5 @@ const Join = styled.div`
       background-color: #2a254b;
       color: #fff;
     }
-  } */}
-`;
-
-const FooterContainer = styled.div`
-  background: purple;
-  border: 1px solid green;
-  width: 100%;
-  ${"" /* */}
-
-  .footer {
-    display: flex;
-    width: 100%;
-    padding: 50px 75px;
-    gap: 120px;
-
-    ${"" /* div p{
-        width: 100%;
-    } */}
   }
 `;

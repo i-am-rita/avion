@@ -86,22 +86,28 @@
 
 /* Collection section */
 .collection {
-  margin-top: 120px;
-  display: flex;
+
+  /* display: flex; */
   gap: 20px;
+  align-items: center;
   justify-content: center;
 }
 
-.collection > div {
+.zoom {
   margin-bottom: 5px;
+  transition: transform 2s;
 }
-.collection > div > p {
+
+.zoom:hover{
+  transform: scale(1.05);
+}
+.collection .zoom > p {
   margin-top: 15px;
   font-weight: 300;
 }
 
-
-
+/* .collection .zoom:hover{
+} */
 
 /* .main {
   display: flex;

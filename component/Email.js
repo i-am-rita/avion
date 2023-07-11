@@ -17,32 +17,29 @@ export const Email = ({ width, backgroundColor }) => {
 };
 
 const EmailContainer = styled.div`
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 60%;
 
+  margin-top: 12px;
   input {
     padding: 10px 20px;
-    ${'' /* width: 552px; */}
+    ${"" /* width: 552px; */}
     height: 56px;
     font-size: 15px;
     border: none;
     background-color: #f9f9f9;
     color: #2a254b;
+    outline: none;
   }
 
   .signup-button {
     padding: 10px 30px;
-    ${'' /* width: 50%; */}
+    width: 120px;
     height: 56px;
     border: none;
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
-    background-color: #2a254b;
-    color: #fff;
+    background-color: #fff;
+    color: #2a254b;
   }
 `;

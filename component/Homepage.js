@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../app/page.module.css";
+import styles from "../app/page.module.css"
 
-import Button from "@/constants/Button";
+import Button from "../constants/Button";
 import { Bigcard } from "./Bigcard";
 export default function Homepage() {
   return (

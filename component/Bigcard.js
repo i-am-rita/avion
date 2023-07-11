@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../app/page.module.css";
+import styles from "../app/page.module.css"
 
-import Button from "@/constants/Button";
+import Button from "../constants/Button";
 
 export const Bigcard = ({
   position,

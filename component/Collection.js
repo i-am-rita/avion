@@ -1,14 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../app/page.module.css";
-import Button from "@/constants/Button";
+import styles from "../app/page.module.css"
+// import Button from "../constants/Button";
 import { Bigcard } from "./Bigcard";
+import { Collectiongallery } from "./Collectiongallery";
 
-export const Collection = () => {
+export const Collection = ({}) => {
   return (
     <div>
-      <div className={styles.collection}>
-        <div>
+    <Collectiongallery gridTemplateColumns= "1fr 1fr 1fr 1fr" marginTop= "120px" />
+      {/* <div className={styles.collection}>
+        <div className={styles.zoom}>
           <Image
             src="/chair.svg"
             alt="collection item"
@@ -19,7 +21,7 @@ export const Collection = () => {
           <p>The Dandy chair</p>
           <p>$250</p>
         </div>
-        <div>
+        <div className={styles.zoom}>
           <Image
             src="/vase.svg"
             alt="collection item"
@@ -30,7 +32,7 @@ export const Collection = () => {
           <p>Rustic Vase Set</p>
           <p>$250</p>
         </div>
-        <div>
+        <div className={styles.zoom}>
           <Image
             src="/silky.svg"
             alt="collection item"
@@ -41,7 +43,7 @@ export const Collection = () => {
           <p>The Silky Vase</p>
           <p>$250</p>
         </div>
-        <div>
+        <div className={styles.zoom}>
           <Image
             src="/lucylamp.svg"
             alt="collection item"
@@ -52,8 +54,8 @@ export const Collection = () => {
           <p>The Lucy Lamp</p>
           <p>$250</p>
         </div>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -66,7 +68,7 @@ export const Collection = () => {
           color="#2A254B"
           backgroundColor="#F9F9F9"
         />
-      </div>
+      </div> */}
 
       {/* Big cards */}
       <div
