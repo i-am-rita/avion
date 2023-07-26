@@ -18,7 +18,6 @@ export const Email = ({ width, backgroundColor }) => {
 
 const EmailContainer = styled.div`
   display: flex;
-
   margin-top: 12px;
   input {
     padding: 10px 20px;

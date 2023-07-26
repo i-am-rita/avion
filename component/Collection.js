@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../app/page.module.css"
+import styles from "../app/page.module.css";
 // import Button from "../constants/Button";
 import { Bigcard } from "./Bigcard";
 import { Collectiongallery } from "./Collectiongallery";
@@ -8,7 +8,10 @@ import { Collectiongallery } from "./Collectiongallery";
 export const Collection = ({}) => {
   return (
     <div>
-    <Collectiongallery gridTemplateColumns= "1fr 1fr 1fr 1fr" marginTop= "120px" />
+      <Collectiongallery
+        gridTemplateColumns="1fr 1fr 1fr 1fr"
+        marginTop="120px"
+      />
       {/* <div className={styles.collection}>
         <div className={styles.zoom}>
           <Image

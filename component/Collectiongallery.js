@@ -51,6 +51,61 @@ export const Collectiongallery = ({gridTemplateColumns, marginTop}) => {
           <p>The Lucy Lamp</p>
           <p>$250</p>
         </div>
+        <div className={styles.zoom}>
+          <Image
+            src="/blackchair.svg"
+            alt="collection item"
+            width={301}
+            height={375}
+            // style={{width: "1000px", height: "100px"}}
+          />
+          <p>The Lucy Lamp</p>
+          <p>$250</p>
+        </div>
+        <div className={styles.zoom}>
+          <Image
+            src="/chandelier.svg"
+            alt="collection item"
+            width={301}
+            height={375}
+            // style={{width: "1000px", height: "100px"}}
+          />
+          <p>The Lucy Lamp</p>
+          <p>$250</p>
+        </div>
+        <div className={styles.zoom}>
+          <Image
+            src="/chandelier.svg"
+            alt="collection item"
+            width={301}
+            height={375}
+            // style={{width: "1000px", height: "100px"}}
+          />
+          <p>The Lucy Lamp</p>
+          <p>$250</p>
+        </div>
+        <div className={styles.zoom}>
+          <Image
+            src="/chandelier.svg"
+            alt="collection item"
+            width={301}
+            height={375}
+            // style={{width: "1000px", height: "100px"}}
+          />
+          <p>The Lucy Lamp</p>
+          <p>$250</p>
+        </div>
+        <div className={styles.zoom}>
+          <Image
+            src="/chandelier.svg"
+            alt="collection item"
+            width={301}
+            height={375}
+            // style={{width: "1000px", height: "100px"}}
+          />
+          <p>The Lucy Lamp</p>
+          <p>$250</p>
+        </div>
       </div>
 
       <div

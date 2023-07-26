@@ -17,13 +17,13 @@ export default function Page() {
           height: "50%",
           margin: "0",
           backgroundColor: "green",
-          border: "1px solid red",
+          // border: "1px solid red",
         }}
       />
 
       <div
         style={{
-          border: "2px solid red",
+          // border: "2px solid red",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -31,7 +31,13 @@ export default function Page() {
         }}
       >
         <Sidebar />
-        <div style={{ display: "flex", padding: "0 0 0 180px", border: "1px solid blue" }}>
+        <div
+          style={{
+            display: "flex",
+            padding: "0 0 0 180px",
+            // border: "1px solid blue",
+          }}
+        >
           <Collectiongallery gridTemplateColumns="1fr 1fr 1fr" />
         </div>
       </div>
